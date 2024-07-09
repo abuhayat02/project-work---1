@@ -1,44 +1,123 @@
-.text-font{
+.text-font {
     font-family: "Azeret Mono", monospace;
 }
-.head-container{
+
+.head-container {
     background-image: url("../assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 600px;
+    margin: 0px auto;
+    max-height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-.parson-image{
+
+.parson-image {
     width: 20%;
 }
-.primary-title{
+
+.primary-title {
+    font-family: "Azeret Mono", monospace;
     font-weight: 800;
     width: 60%;
     margin: 0px auto;
-    font-size: 44px;
+    font-size: 36px;
     text-align: center;
 }
-.head-container a{
+
+.head-container a {
     text-decoration: none;
     color: white;
     font-weight: 500;
 }
-.discription{
-    font-size: 16px;
-    width: 60%;
+
+.discription {
+    font-family: "Azeret Mono", monospace;
+    font-size: 13px;
+    width: 70%;
     margin: 0px auto;
+    padding: 0px 5%;
     text-align: center;
     color: #0D1321;
 }
 
-.btn{
+.btn {
     padding: 10px 15px;
     background-color: black;
     border-radius: 5px;
+    margin: 20px;
+}
+
+.larn-and-searvices {
+    max-width: 1100px;
+    background-color: #FAFAFB;
+    margin: 100px auto;
+    border-radius: 5px;
+}
+
+.services-container {
+    padding: 50px;
+}
+
+.secondary-title {
+    font-size: 28px;
+    color: #0D1321;
+    font-weight: 800;
+    font-family: "Azeret Mono", monospace;
+    text-align: center;
+
+}
+
+.coding-world {
+    margin: 20px 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    overflow: hidden;
+    background: linear-gradient( 90deg,rgba(239, 240, 242, 0),rgba(199, 207, 228, 0.313) 100%); 
+}
+
+.learn-coding {
+    padding: 10px 40px;
+    border-radius: 16px;
+    background-color: white;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.item-title {
+    margin-top: 50px;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(12, 17, 29, 0.7);
+    font-family: "Azeret Mono", monospace;
+
+}
+
+.sub-title {
+    margin: 40px 0px;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: Azeret Mono;
+    color: rgb(13, 19, 33);
+
+}
+
+.secondary-btn {
+    padding: 10px 20px;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid rgba(2, 2, 2, 0.614);
+
+}
+.skill-services-container{
+    padding: 30px 0px;
+    /* background-color: #0D1321; */
 }
