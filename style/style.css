@@ -74,6 +74,10 @@
     text-align: center;
 
 }
+.secondary-btn a{
+    color: black;
+    text-decoration: none;
+}
 
 .coding-world {
     margin: 20px 100px;
